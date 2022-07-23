@@ -1,7 +1,7 @@
 import ExpenseItem from "./ExpenseItem";
 import Card from "./Card";
 import "./Expenses.css";
-import ExpenseFilter from "./ExpenseItem/ExpenseFilter";
+import ExpenseFilter from "./ExpenseFilter/ExpenseFilter";
 import { useState } from "react";
 
 function Expenses(props) {
