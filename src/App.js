@@ -1,7 +1,8 @@
 import "./App.css";
-import NewExpense from "./components/NewEXpense/NewExpense";
-import Expenses from "./components/Expenses";
 import { useState } from "react";
+import NewExpense from "./components/NewEXpense/NewExpense";
+import Expenses from "./components/Expenses/Expenses";
+
 const DataExpenses = [
   {
     id: "e1",
