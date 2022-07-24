@@ -24,6 +24,7 @@ const ExpenseForm = (props) => {
     setEteresTitle("");
     setEteresAmount("");
     setEteresDate("");
+    props.onCancel(true);
   };
 
   return (
@@ -60,6 +61,7 @@ const ExpenseForm = (props) => {
       </div>
       <div className="new-expense__actions">
         <button type="submit">Add Expense</button>
+        <button type="submit">CenCal</button>
       </div>
     </form>
   );
